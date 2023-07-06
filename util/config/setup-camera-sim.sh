@@ -28,7 +28,7 @@ if [ ! "$(docker ps -q -f name=camera_sim)" ]; then
     --name camera_sim
     -p 5673:5672
     -p 8765:8765
-    mnav-dockerhub.subrosa.medtronic.com/test/hardwaresimulator:juno-dev-3.1 bash "/opt/mnav/hardwaresimulatorservice/startup_webapi.sh"'
+    example1.com/test/hardwaresimulator:juno-dev-3.1 bash "/startup_webapi.sh"'
   echo $command
   eval $command
 

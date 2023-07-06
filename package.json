@@ -21,8 +21,6 @@
   "author": "Xu Cao",
   "license": "ISC",
   "dependencies": {
-    "@juno/camerasimmethods": "1.0.0",
-    "@juno/medtronic-web-application-testing-framework": "0.1.8",
     "@testing-library/cypress": "9.0.0",
     "cypress": "12.4.0",
     "cypress-multi-reporters": "1.6.1",
