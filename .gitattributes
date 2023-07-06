@@ -1,0 +1,4 @@
+# Enforce LF line endings regardless of OS or git configurations.
+* text=auto eol=lf
+# Explicitly mark certain file types as binary files to avoid bricking them with the line-ending configuration
+*.{png,jpg,jpeg,gif,webp,woff,woff2} binary

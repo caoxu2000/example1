@@ -1,0 +1,1 @@
+This is the directory where all baseline images must be located when using image compare.

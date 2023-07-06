@@ -1,0 +1,67 @@
+{
+  "name": "systemtest",
+  "version": "1.0.0",
+  "description": "Juno - Cypress.io test framework",
+  "scripts": {
+    "lint": "npx eslint ./**/*.ts ./**/*.js",
+    "lint:fix": "npm run lint -- --fix",
+    "prettier": "npx prettier ./**/*.ts ./**/*.js ./**/*.json --check",
+    "prettier:fix": "npm run prettier -- --write",
+    "format": "npm run lint:fix && npm run prettier:fix",
+    "cypress:open": "node_modules/.bin/cypress open",
+    "cypress:run": "./cypress/e2e/test-runners/lib/test-runner.sh --spec",
+    "cypress:run-headed": "./cypress/e2e/test-runners/lib/test-runner.sh --headed --spec",
+    "ci:smoke-suite": "./cypress/e2e/test-runners/suites/smoke-suite.sh",
+    "config:make": "node ./util/config/cases-to-procedures.js",
+    "language:make": "node ./util/config/transfer-translations.js",
+    "setup-camera-sim": "./util/config/setup-camera-sim.sh",
+    "appSetup:make": "./util/config/configureApp.sh",
+    "prepare": "husky install && chmod ug+x .husky/*"
+  },
+  "author": "Team Otto",
+  "license": "ISC",
+  "dependencies": {
+    "@juno/camerasimmethods": "1.0.0",
+    "@juno/medtronic-web-application-testing-framework": "0.1.8",
+    "@testing-library/cypress": "9.0.0",
+    "cypress": "12.4.0",
+    "cypress-multi-reporters": "1.6.1",
+    "cypress-teamcity-reporter": "3.0.0",
+    "cypress-image-diff-js": "1.23.0",
+    "mochawesome": "7.1.3",
+    "mochawesome-merge": "4.2.1",
+    "mochawesome-report-generator": "6.2.0",
+    "node-ssh": "12.0.4",
+    "superagent": "7.1.3",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/mochawesome": "6.2.1",
+    "@types/node": "18.0.4",
+    "@typescript-eslint/eslint-plugin": "5.43.0",
+    "@typescript-eslint/parser": "5.39.0",
+    "eslint": "8.16.0",
+    "eslint-config-google": "0.14.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-chai-friendly": "0.7.2",
+    "eslint-plugin-cypress": "2.12.1",
+    "eslint-plugin-mocha": "10.1.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "husky": "8.0.0",
+    "lint-staged": "13.0.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "./**/*.{ts,js}": [
+      "npx prettier --write",
+      "npx eslint --fix"
+    ],
+    "**/*.json": [
+      "npx prettier --write"
+    ]
+  }
+}

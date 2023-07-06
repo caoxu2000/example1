@@ -1,0 +1,37 @@
+export namespace pom.registration {
+  export type adjustLevelWidth = JQuery<HTMLElement>
+  export type sliderContainer = JQuery<HTMLElement>
+  export type slider = JQuery<HTMLElement>
+  export type sliderValue = JQuery<HTMLElement>
+  export type gearControl = JQuery<HTMLElement>
+  export type editName = JQuery<HTMLElement>
+  export type colormap = JQuery<HTMLElement>
+  export type selectColormap = JQuery<HTMLElement>
+  export type modality = JQuery<HTMLElement>
+  export type selectModality = JQuery<HTMLElement>
+  export type deleteRegistration = JQuery<HTMLElement>
+  export type confirmDeleteRegistration = JQuery<HTMLElement>
+  export type cancelDeleteRegistration = JQuery<HTMLElement>
+  export type colormapValue = JQuery<HTMLElement>
+  export type modalityValue = JQuery<HTMLElement>
+  export type editModel = JQuery<HTMLElement>
+  export type changeImage = JQuery<HTMLElement>
+  export type touchReady = JQuery<HTMLElement>
+  export type traceReady = JQuery<HTMLElement>
+  export type touchComplete = JQuery<HTMLElement>
+  export type touch = JQuery<HTMLElement>
+  export type landmarkList = JQuery<HTMLElement>
+  export type landmark = JQuery<HTMLElement>
+  export type touchpoint = JQuery<HTMLElement>
+  export type landmarkPlaceholderList = JQuery<HTMLElement>
+  export type touchpointMenu = JQuery<HTMLElement>
+  export type registrationAccuracy = JQuery<HTMLElement>
+  export type trace = JQuery<HTMLElement>
+  export type undoLastAction = JQuery<HTMLElement>
+  export type undoLastTrace = JQuery<HTMLElement>
+  export type addImagePoint = JQuery<HTMLElement>
+  export type restart = JQuery<HTMLElement>
+  export type touchProgressBar = JQuery<HTMLElement>
+  export type touchProgressMarker = JQuery<HTMLElement>
+  export type touchProgressInnerDot = JQuery<HTMLElement>
+}

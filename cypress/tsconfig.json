@@ -1,0 +1,15 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@global-config/*": ["global-config/*"],
+      "@pom/*": ["pom/*"],
+      "@fixtures/*": ["fixtures/*"],
+      "@fixtures/patients": ["fixtures/patients/index"],
+      "@util/*": ["util/*"],
+      "@util": ["util/index"]
+    },
+    "types": ["cypress"]
+  }
+}

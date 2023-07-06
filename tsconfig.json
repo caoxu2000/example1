@@ -1,0 +1,14 @@
+
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "strict": false,
+      "noEmit": true,
+      "typeRoots": ["./node_modules/@types",
+                    "./node_modules/node-ssh/lib/typings", 
+                    "./node_modules/cypress/types"],
+      "esModuleInterop": true,
+      "resolveJsonModule":true,
+    }
+  }

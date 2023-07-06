@@ -1,0 +1,30 @@
+export namespace pom.equipment {
+  export type equipmentListInProcedure = JQuery<HTMLElement>
+  export type equipmentCard = JQuery<HTMLElement>
+  export type equipmentCardTitleBox = JQuery<HTMLElement>
+  export type removeCard = JQuery<HTMLElement>
+  export type gearIcon = JQuery<HTMLElement>
+  export type registrationField = JQuery<HTMLElement>
+  export type currentError = JQuery<HTMLElement>
+  export type cart = JQuery<HTMLElement>
+  export type cartConnection = JQuery<HTMLElement>
+  export type removeCart = JQuery<HTMLElement>
+  export type detailsButton = JQuery<HTMLElement>
+  export type detailsText = JQuery<HTMLElement>
+  export type detailsPopup = JQuery<HTMLElement>
+  export type detailsClose = JQuery<HTMLElement>
+  export type rightPanel = JQuery<HTMLElement>
+  export type rightPanelTitle = JQuery<HTMLElement>
+  export type searchBar = JQuery<HTMLElement>
+  export type clearSearchIcon = JQuery<HTMLElement>
+  export type availableEquipmentList = JQuery<HTMLElement>
+  export type addToProcedure = JQuery<HTMLElement>
+  export type setUpCancel = JQuery<HTMLElement>
+  export type textInput = JQuery<HTMLElement>
+  export type clearInput = JQuery<HTMLElement>
+  export type setUpError = JQuery<HTMLElement>
+  export type innerCancelButton = JQuery<HTMLElement>
+  export type setUpAddToEquipmentButton = JQuery<HTMLElement>
+  export type deleteButton = JQuery<HTMLElement>
+  export type done = JQuery<HTMLElement>
+}

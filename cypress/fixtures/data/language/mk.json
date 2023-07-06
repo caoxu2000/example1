@@ -1,0 +1,926 @@
+{
+  "AboutThisStealth": {
+    "defaultMessage": "About This Stealth-mk",
+    "description": "The task for getting general system information"
+  },
+  "AcquireImages": {
+    "defaultMessage": "Image Acquisition-mk",
+    "description": "The task intra-op image acquisition (Oarm)"
+  },
+  "Canvas.Far": {
+    "defaultMessage": "Far-mk",
+    "description": "Tracking view Far text on canvas"
+  },
+  "Canvas.Near": {
+    "defaultMessage": "Near-mk",
+    "description": "Tracking view Near text on canvas"
+  },
+  "ComboBox.Modality.CT": {
+    "defaultMessage": "CT-mk",
+    "description": "Abbreviation for CT scan in exams modality select"
+  },
+  "ComboBox.Modality.MR": {
+    "defaultMessage": "MR-mk",
+    "description": "Abbreviation for MRI in exams modality select"
+  },
+  "Comonents.LayoutDrawer.Btn.Save": {
+    "defaultMessage": "Save layout changes-mk",
+    "description": "Label of button for saving selected layout"
+  },
+  "Components.LayoutDrawer.Btn.Delete": {
+    "defaultMessage": "Delete-mk",
+    "description": "Label for delete button"
+  },
+  "Components.LayoutDrawer.Btn.Delete.Confirm": {
+    "defaultMessage": "Are you sure you want to delete?-mk",
+    "description": "Confirmation prompt displayed on delete button before completing deletion"
+  },
+  "Components.LayoutDrawer.Input.Name": {
+    "defaultMessage": "Name:-mk",
+    "description": "Label for text input for entering a layout name"
+  },
+  "Components.LayoutDrawer.LayoutSelection.SelectLayout": {
+    "defaultMessage": "Select a layout-mk",
+    "description": "Prompts user to select a layout"
+  },
+  "Components.RightPanel.Btn.Toggle.Collapse": {
+    "defaultMessage": "Collapse right panel-mk",
+    "description": "Accessibility label for button to toggle right panel closed"
+  },
+  "Components.RightPanel.Btn.Toggle.Expand": {
+    "defaultMessage": "Expand right panel-mk",
+    "description": "Accessibility label for button to toggle right panel open"
+  },
+  "Components.TrackingControls.Button.Frame.NotAvailable": {
+    "defaultMessage": "Frame Info Not Available-mk",
+    "description": "Displayed when frame information not provided by API"
+  },
+  "Components.TrackingControls.Button.Probe.NotAvailable": {
+    "defaultMessage": "Probe Info Not Available-mk",
+    "description": "Displayed when probe information not provided by API"
+  },
+  "Components.TrackingControls.Button.ShowTrackingDrawer": {
+    "defaultMessage": "Show Tracking Drawer-mk",
+    "description": "Accessibility label for icon button that opens tracking drawer"
+  },
+  "Components.TrackingDetails.InfoMsg": {
+    "defaultMessage": "Max Geometry Error: {max} mm-mk",
+    "description": "String displays max geometry error for tool (piped in max variable)"
+  },
+  "Components.TrackingDrawer.Button.Close": {
+    "defaultMessage": "Close-mk",
+    "description": "Alt text for close button for tracking view drawer"
+  },
+  "Components.TrackingDrawer.Button.CloseTrackingDetails": {
+    "defaultMessage": "Close Tracking Details-mk",
+    "description": "Label for button that closes collabsible tracking instrument details"
+  },
+  "Components.TrackingDrawer.Button.OpenTrackingDetails": {
+    "defaultMessage": "Open Tracking Details-mk",
+    "description": "Label for button that opens collabsible tracking instrument details"
+  },
+  "DicomAdmin": {
+    "defaultMessage": "DICOM Transfer-mk",
+    "description": "The task for configuring DICOM network transfers"
+  },
+  "Equipment": {
+    "defaultMessage": "Equipment-mk",
+    "description": "The task to add/remove equipment from a procedure and connection status"
+  },
+  "ExitApplicationPrompt.cancel": {
+    "defaultMessage": "CANCEL-mk",
+    "description": "Cancel exiting the application"
+  },
+  "ExitApplicationPrompt.logout": {
+    "defaultMessage": "Stealth will log out in{br}{time} seconds-mk",
+    "description": "{br} is a line break. {time} is seconds until logout"
+  },
+  "ExitApplicationPrompt.logoutnow": {
+    "defaultMessage": "LOG OUT NOW-mk",
+    "description": "Log out immediately"
+  },
+  "ExitApplicationPrompt.powerdown": {
+    "defaultMessage": "POWER DOWN{br}NOW-mk",
+    "description": "Power Down immediately. {br} is line break"
+  },
+  "ExitApplicationPrompt.shutdown": {
+    "defaultMessage": "Stealth will power down in{br}{time} seconds-mk",
+    "description": "{br} is a line break. {time} is seconds until power down"
+  },
+  "Export": {
+    "defaultMessage": "Export-mk",
+    "description": "The task to export patient data via media or network"
+  },
+  "Framework.HeaderBar.Components.MenuButton.Icon": {
+    "defaultMessage": "Menu icon-mk",
+    "description": "Alt text for menu icon in button"
+  },
+  "Framework.HeaderBar.Components.MenuButton.Logo": {
+    "defaultMessage": "Medtronic logo-mk",
+    "description": "Alt text for Medtronic logo in button"
+  },
+  "Framework.HeaderBar.FullscreenButton.DisableFullscreen": {
+    "defaultMessage": "Disable fullscreen-mk",
+    "description": "Accessibility label on button to disable fullscreen"
+  },
+  "Framework.HeaderBar.FullscreenButton.EnableFullscreen": {
+    "defaultMessage": "Enable fullscreen-mk",
+    "description": "Accessibility label on button to enable fullscreen"
+  },
+  "Framework.TaskMenu.Icon.Menu": {
+    "defaultMessage": "Menu icon-mk",
+    "description": "Menu icon displayed in task menu"
+  },
+  "Framework.TaskMenu.Logo.Medtronic": {
+    "defaultMessage": "Medtronic logo-mk",
+    "description": "Medtronic logo displayed in task menu"
+  },
+  "ImageToolBar.browse": {
+    "defaultMessage": "Browse-mk",
+    "description": "Button to enable scrolling through the anatomy in the views"
+  },
+  "ImageToolBar.correct": {
+    "defaultMessage": "Correct-mk",
+    "description": "Button to display the correct anatomy dialog"
+  },
+  "ImageToolBar.crosshairs": {
+    "defaultMessage": "Crosshairs-mk",
+    "description": "Button to select the next predefined crosshair configuration in the views (dot vs cross)"
+  },
+  "ImageToolBar.cyclelayout": {
+    "defaultMessage": "Cycle Layouts-mk",
+    "description": "Button to select the next predefined view layout"
+  },
+  "ImageToolBar.footswitch": {
+    "defaultMessage": "Footswitch-mk",
+    "description": "Button to simulate the physical footswitch"
+  },
+  "ImageToolBar.help": {
+    "defaultMessage": "Help-mk",
+    "description": "Button to display the help dialog for this task"
+  },
+  "ImageToolBar.measure": {
+    "defaultMessage": "Measure-mk",
+    "description": "Button to enable measuring anatomy in the views"
+  },
+  "ImageToolBar.move": {
+    "defaultMessage": "Move-mk",
+    "description": "Button to enable moving anatomy in the views"
+  },
+  "ImageToolBar.recenter": {
+    "defaultMessage": "Recenter-mk",
+    "description": "Button to recenter the anatomy in the views (reset zoom, move, rotate)"
+  },
+  "ImageToolBar.record": {
+    "defaultMessage": "Record-mk",
+    "description": "Button to enable video recording of the screen"
+  },
+  "ImageToolBar.rotate": {
+    "defaultMessage": "Rotate-mk",
+    "description": "Button to enable rotating anatomy in the views"
+  },
+  "ImageToolBar.snapshot": {
+    "defaultMessage": "Snapshot-mk",
+    "description": "Button to take a picture of the screen"
+  },
+  "ImageToolBar.zoom": {
+    "defaultMessage": "Zoom-mk",
+    "description": "Button to enable zooming anatomy in the views"
+  },
+  "Images": {
+    "defaultMessage": "Images-mk",
+    "description": "The task to import DICOM and preview patient images"
+  },
+  "Instruments": {
+    "defaultMessage": "Instruments-mk",
+    "description": "The task to add/remove instruments from a procedure"
+  },
+  "MergeImages": {
+    "defaultMessage": "Images-mk",
+    "description": "The task that performs the StealthMerge algorithm on patient images"
+  },
+  "Navigation": {
+    "defaultMessage": "Navigation-mk",
+    "description": "The task that provides live navigation of a probe"
+  },
+  "PatientAdmin": {
+    "defaultMessage": "Patient Data-mk",
+    "description": "The task for managing patient data"
+  },
+  "Plan": {
+    "defaultMessage": "Planning-mk",
+    "description": "The task to create Plans, Annotations and View Configurations"
+  },
+  "SelectProcedure": {
+    "defaultMessage": "Select Procedure-mk",
+    "description": "The task to select Anatomy, Surgeon and Procedure"
+  },
+  "SmartPrompt.done": {
+    "defaultMessage": "DONE-mk",
+    "description": "Completed the current task"
+  },
+  "StealthView.Axial": {
+    "defaultMessage": "Axial-mk",
+    "description": "Dropdown selection over planning image of the patient"
+  },
+  "StealthView.Coronal": {
+    "defaultMessage": "Coronal-mk",
+    "description": "Dropdown selection over planning image of the patient"
+  },
+  "StealthView.Guidance": {
+    "defaultMessage": "Guidance-mk",
+    "description": "Dropdown selection over planning image of the patient"
+  },
+  "StealthView.LookAhead": {
+    "defaultMessage": "Look Ahead-mk",
+    "description": "Dropdown selection over planning image of the patient"
+  },
+  "StealthView.ProbesEye": {
+    "defaultMessage": "Probe's Eye-mk",
+    "description": "Dropdown selection over planning image of the patient"
+  },
+  "StealthView.Sagittal": {
+    "defaultMessage": "Sagittal-mk",
+    "description": "Dropdown selection over planning image of the patient"
+  },
+  "StealthView.ThreeD": {
+    "defaultMessage": "3D-mk",
+    "description": "Dropdown selection over planning image of the patient"
+  },
+  "StealthView.TrajectoryOne": {
+    "defaultMessage": "Trajectory 1-mk",
+    "description": "Dropdown selection over planning image of the patient"
+  },
+  "StealthView.TrajectoryTwo": {
+    "defaultMessage": "Trajectory 2-mk",
+    "description": "Dropdown selection over planning image of the patient"
+  },
+  "StealthView.Video": {
+    "defaultMessage": "Video-mk",
+    "description": "Dropdown selection over planning image of the patient"
+  },
+  "StealthView.VirtualEndoscope": {
+    "defaultMessage": "Virtual Endoscope-mk",
+    "description": "Dropdown selection over planning image of the patient"
+  },
+  "SubTaskPanel.annotations": {
+    "defaultMessage": "Annotations-mk",
+    "description": "Planning task Annotations drawer"
+  },
+  "SubTaskPanel.layouts": {
+    "defaultMessage": "Layouts-mk",
+    "description": "Planning task Layouts drawer"
+  },
+  "SubTaskPanel.plans": {
+    "defaultMessage": "Plans-mk",
+    "description": "Planning task Plans drawer"
+  },
+  "SubTaskPanel.threedviews": {
+    "defaultMessage": "3D Views-mk",
+    "description": "Planning task 3D Views drawer"
+  },
+  "SubTaskPanel.twodviews": {
+    "defaultMessage": "2D Views-mk",
+    "description": "Planning task 2D Views drawer"
+  },
+  "SurgeonAdmin": {
+    "defaultMessage": "Preferences-mk",
+    "description": "The task for setting surgeon and procedure preferences"
+  },
+  "TRU": {
+    "defaultMessage": "Registration-mk",
+    "description": "The task to register a patient by manually touching the patient with a probe"
+  },
+  "TRUVerify": {
+    "defaultMessage": "Registration-mk",
+    "description": "The task that allows the user verify the manual registration"
+  },
+  "TaskMenu.logout": {
+    "defaultMessage": "Log Out-mk",
+    "description": "Log out of the current account"
+  },
+  "TaskMenu.powerdown": {
+    "defaultMessage": "Power Down System-mk",
+    "description": "Shut down the computer system"
+  },
+  "Tasks.AboutThisStealth.LanguageAndCopyright.Direct": {
+    "defaultMessage": "Direct: {phone}-mk",
+    "description": "Direct phone number"
+  },
+  "Tasks.AboutThisStealth.LanguageAndCopyright.TechnicalSupport": {
+    "defaultMessage": "Technical Support: {phone}-mk",
+    "description": "Technical support phone number"
+  },
+  "Tasks.AcquireImages.ExamDrawer.ComboBox.ColorMap.Bone": {
+    "defaultMessage": "Bone-mk",
+    "description": "Colormap type in select option list"
+  },
+  "Tasks.AcquireImages.ExamDrawer.ComboBox.ColorMap.BoneSinus": {
+    "defaultMessage": "Bone Sinus-mk",
+    "description": "Colormap type in select option list"
+  },
+  "Tasks.AcquireImages.ExamDrawer.ComboBox.ColorMap.BoneVessels": {
+    "defaultMessage": "Bone & Vessels-mk",
+    "description": "Colormap type in select option list"
+  },
+  "Tasks.AcquireImages.ExamDrawer.ComboBox.ColorMap.Cool": {
+    "defaultMessage": "Cool-mk",
+    "description": "Colormap type in select option list"
+  },
+  "Tasks.AcquireImages.ExamDrawer.ComboBox.ColorMap.Grayscale": {
+    "defaultMessage": "Grayscale-mk",
+    "description": "Colormap type in select option list"
+  },
+  "Tasks.AcquireImages.ExamDrawer.ComboBox.ColorMap.Heat": {
+    "defaultMessage": "Heat-mk",
+    "description": "Colormap type in select option list"
+  },
+  "Tasks.AcquireImages.ExamDrawer.ComboBox.ColorMap.Rainbow": {
+    "defaultMessage": "Rainbow-mk",
+    "description": "Colormap type in select option list"
+  },
+  "Tasks.AcquireImages.ExamDrawer.ComboBox.ColorMap.SkinBone": {
+    "defaultMessage": "Skin & Bone-mk",
+    "description": "Colormap type in select option list"
+  },
+  "Tasks.AcquireImages.ExamDrawer.ComboBox.Title.Colormap": {
+    "defaultMessage": "Colormap-mk",
+    "description": "Label for colormap combobox"
+  },
+  "Tasks.AcquireImages.ExamDrawer.ComboBox.Title.Modality": {
+    "defaultMessage": "Modality-mk",
+    "description": "Label for Modality combobox"
+  },
+  "Tasks.AcquireImages.ExamDrawer.Input.Label.Name": {
+    "defaultMessage": "Name-mk",
+    "description": "Label for Exam Drawer name input"
+  },
+  "Tasks.AcquireImages.ExamsPanel.PatientImages": {
+    "defaultMessage": "Patient Images-mk",
+    "description": "Descriptor for patient images side panel"
+  },
+  "Tasks.AcquireImages.ExamsPanel.StealthSwitch.Label": {
+    "defaultMessage": "Select-mk",
+    "description": "Label for stealth switch selector"
+  },
+  "Tasks.AcquireImages.ExamsPanel.ViewRecentImages": {
+    "defaultMessage": "VIEW RECENT IMAGES-mk",
+    "description": "Button prompt to view recent images"
+  },
+  "Tasks.AcquireImages.Heading.AcquireImages": {
+    "defaultMessage": "Acquire Images for Procedure-mk",
+    "description": "Heading for tasks panel to acquire images for procedure"
+  },
+  "Tasks.AcquireImages.Heading.Ensure": {
+    "defaultMessage": "Ensure that both the Wireless Tracker and Patient Reference are visible in the Tracking View.-mk",
+    "description": "Notification to user to ensure tha both Wireless Tracker and Patient Referencea are visible in tracking view"
+  },
+  "Tasks.AcquireImages.Heading.Perform": {
+    "defaultMessage": "Perform patient scan and transfer according to O-arm instructions.-mk",
+    "description": "Prompt to user to perform scan and transfer according to O-arm instructions."
+  },
+  "Tasks.AcquireImages.Notification.NotCommunicating": {
+    "defaultMessage": "Not Communicating with O-arm-mk",
+    "description": "Notification or warning that StealthStation is not communicating with O-arm"
+  },
+  "Tasks.AcquireImages.Notification.OarmTrackerNotVisible": {
+    "defaultMessage": "O-arm Tracker Not Visible-mk",
+    "description": "Notification or warning that O-arm tracker is not visible"
+  },
+  "Tasks.AcquireImages.Notification.PatientTrackerNotVisible": {
+    "defaultMessage": "Patient Tracker Not Visible-mk",
+    "description": "Notification or warning that patient tracker is not visible"
+  },
+  "Tasks.DicomAdmin.Heading.DicomTransfer": {
+    "defaultMessage": "Dicom Transfer-mk",
+    "description": "heading for Dicom Admin task view"
+  },
+  "Tasks.Equipment.Heading": {
+    "defaultMessage": "Equipment-mk",
+    "description": "Heading for Equipment task"
+  },
+  "Tasks.Equipment.Title": {
+    "defaultMessage": "Equipment-mk",
+    "description": "Title of equipment task, as appears in right panel slideout"
+  },
+  "Tasks.Images.DicomQuery.Series.Btn.Download": {
+    "defaultMessage": "DOWNLOAD-mk",
+    "description": "Download button label"
+  },
+  "Tasks.Images.DicomQuery.SeriesSort.Date": {
+    "defaultMessage": "DATE-mk",
+    "description": "Sorting button label, sort by date column"
+  },
+  "Tasks.Images.DicomQuery.SeriesSort.Description": {
+    "defaultMessage": "DESCRIPTION-mk",
+    "description": "Sorting button label, sort by description column"
+  },
+  "Tasks.Images.DicomQuery.SeriesSort.Slices": {
+    "defaultMessage": "SLICES-mk",
+    "description": "Sorting button label, sort by date column"
+  },
+  "Tasks.Images.DicomQuery.Study.Dob": {
+    "defaultMessage": "DOB: {_dob}, {_sex}-mk",
+    "description": "Renders date of birth and sex of patient"
+  },
+  "Tasks.Images.DicomQuery.Study.DownloadAll": {
+    "defaultMessage": "DOWNLOAD ALL-mk",
+    "description": "Download all items button label"
+  },
+  "Tasks.Images.DicomQuery.Study.Mrn": {
+    "defaultMessage": "MRN: {_mrn}-mk",
+    "description": "Displays MRN"
+  },
+  "Tasks.Images.DicomQuery.Study.Study": {
+    "defaultMessage": "Study: {_id}-mk",
+    "description": "Renders the study id"
+  },
+  "Tasks.Images.ExamsPanel.ManagePatientData": {
+    "defaultMessage": "Manage patient data-mk",
+    "description": "Button label for managing patient data"
+  },
+  "Tasks.Images.ExamsPanel.SelectAll": {
+    "defaultMessage": "Select all-mk",
+    "description": "Button label for selecting all patient data"
+  },
+  "Tasks.Images.Examspanel.StealthSwitch.Label.Select": {
+    "defaultMessage": "Select-mk",
+    "description": "Select prompt/label for switch control"
+  },
+  "Tasks.Images.LightBox.ExamDetails.DOB": {
+    "defaultMessage": "DOB: {dob}-mk",
+    "description": "DOB label and field in exam details pane"
+  },
+  "Tasks.Images.LightBox.ExamDetails.Date": {
+    "defaultMessage": "Date: {date}-mk",
+    "description": "Date label and field in exam details pane"
+  },
+  "Tasks.Images.LightBox.ExamDetails.Description": {
+    "defaultMessage": "Description: {desc}-mk",
+    "description": "Description label and field in exam details pane"
+  },
+  "Tasks.Images.LightBox.ExamDetails.Less": {
+    "defaultMessage": "Less-mk",
+    "description": "Button label to hide dropdown panel with additional information"
+  },
+  "Tasks.Images.LightBox.ExamDetails.MRN": {
+    "defaultMessage": "MRN: {mrn}-mk",
+    "description": "MRN label and field in exam details pane"
+  },
+  "Tasks.Images.LightBox.ExamDetails.More": {
+    "defaultMessage": "More-mk",
+    "description": "Button label to display dropdown panel with additional information"
+  },
+  "Tasks.Images.LightBox.ExamDetails.Name": {
+    "defaultMessage": "Name: {name}-mk",
+    "description": "Name label and field in exam details pane"
+  },
+  "Tasks.Images.LightBox.ExamDetails.Number": {
+    "defaultMessage": "Number: {number}-mk",
+    "description": "Study number label and field in exam details pane"
+  },
+  "Tasks.Images.LightBox.ExamDetails.Orientation": {
+    "defaultMessage": "Orientation: {orientation}-mk",
+    "description": "Series orientation label and field in exam details pane"
+  },
+  "Tasks.Images.LightBox.ExamDetails.Patient": {
+    "defaultMessage": "Patient-mk",
+    "description": "Heading of patient section in exam details pane"
+  },
+  "Tasks.Images.LightBox.ExamDetails.Series": {
+    "defaultMessage": "Series-mk",
+    "description": "Heading for Series section in exam details pane"
+  },
+  "Tasks.Images.LightBox.ExamDetails.SeriesDate": {
+    "defaultMessage": "Date: {series_date}-mk",
+    "description": "Series date label and field in exam details pane"
+  },
+  "Tasks.Images.LightBox.ExamDetails.SeriesDescription": {
+    "defaultMessage": "Description: {series_description}-mk",
+    "description": "Series description label and field in exam details pane"
+  },
+  "Tasks.Images.LightBox.ExamDetails.SeriesNumber": {
+    "defaultMessage": "Number: {series_number}-mk",
+    "description": "Series number label and field in exam details pane"
+  },
+  "Tasks.Images.LightBox.ExamDetails.Slices": {
+    "defaultMessage": "Slices: {slices}-mk",
+    "description": "Series slices label and field in exam details pane"
+  },
+  "Tasks.Images.LightBox.ExamDetails.Spacing": {
+    "defaultMessage": "Spacing: {spacing}-mk",
+    "description": "Series spacing label and field in exam details pane"
+  },
+  "Tasks.Images.LightBox.ExamDetails.Study": {
+    "defaultMessage": "Study-mk",
+    "description": "Heading of study section in Exam Details pane"
+  },
+  "Tasks.Images.LightBox.ExamDetails.Thickness": {
+    "defaultMessage": "Thickness: {thickness}-mk",
+    "description": "Series thickness label and field in exam details pane"
+  },
+  "Tasks.Images.LightBox.More.AttPhysician": {
+    "defaultMessage": "Att Physician: {att_physician}-mk",
+    "description": "Att Physician name in more exam details pane"
+  },
+  "Tasks.Images.LightBox.More.BitDepth:": {
+    "defaultMessage": "Bit Depth: {bitdepth}-mk",
+    "description": "Bit Depth in more exam details pane"
+  },
+  "Tasks.Images.LightBox.More.GantryTilt:": {
+    "defaultMessage": "Gantry Tilt: {gantry_tilt}-mk",
+    "description": "Gantry Tilt in more exam details pane"
+  },
+  "Tasks.Images.LightBox.More.Hospital": {
+    "defaultMessage": "Hospital: {hospital}-mk",
+    "description": "Hospital name in more exam details pane"
+  },
+  "Tasks.Images.LightBox.More.LevelWindowCenter": {
+    "defaultMessage": "Level (Window Center): {window_center}-mk",
+    "description": "Level (Window Center) in more exam details pane"
+  },
+  "Tasks.Images.LightBox.More.Manufacturer:": {
+    "defaultMessage": "Manufacturer: {manufacturer}-mk",
+    "description": "Manufacturer in more exam details pane"
+  },
+  "Tasks.Images.LightBox.More.Operator:": {
+    "defaultMessage": "Operator: {operator_name}-mk",
+    "description": "Operator in more exam details pane"
+  },
+  "Tasks.Images.LightBox.More.Radiologist": {
+    "defaultMessage": "Radiologist: {radiologist}-mk",
+    "description": "Radiologist name in more exam details pane"
+  },
+  "Tasks.Images.LightBox.More.RefPhysician": {
+    "defaultMessage": "Ref Physician: {ref_physician}-mk",
+    "description": "Ref Physician name in more exam details pane"
+  },
+  "Tasks.Images.LightBox.More.ScanProtocol:": {
+    "defaultMessage": "Scan Protocol: {scan_protocol}-mk",
+    "description": "Scan Protocol in more exam details pane"
+  },
+  "Tasks.Images.LightBox.More.Scanner": {
+    "defaultMessage": "Scanner: {scanner}-mk",
+    "description": "Scanner in more exam details pane"
+  },
+  "Tasks.Images.LightBox.More.WindowWidth": {
+    "defaultMessage": "Width (Window Width): {window_width}-mk",
+    "description": "Width (Window Width) in more exam details pane"
+  },
+  "Tasks.Images.LightBox.More.XFOV:": {
+    "defaultMessage": "X FOV: {x_fov}-mk",
+    "description": "X FOV in more exam details pane"
+  },
+  "Tasks.Images.LightBox.More.XScale:": {
+    "defaultMessage": "X Scale: {x_scale}-mk",
+    "description": "X Scale in more exam details pane"
+  },
+  "Tasks.Images.LightBox.More.XSize:": {
+    "defaultMessage": "X Size: {x_size}-mk",
+    "description": "X Size in more exam details pane"
+  },
+  "Tasks.Images.LightBox.More.YFOV:": {
+    "defaultMessage": "Y FOV: {y_fov}-mk",
+    "description": "Y FOV in more exam details pane"
+  },
+  "Tasks.Images.LightBox.More.YScale:": {
+    "defaultMessage": "Y Scale: {y_scale}-mk",
+    "description": "Y Scale in more exam details pane"
+  },
+  "Tasks.Images.LightBox.More.YSize:": {
+    "defaultMessage": "Y Size: {y_size}-mk",
+    "description": "Y Size in more exam details pane"
+  },
+  "Tasks.Images.MediaTab.Search": {
+    "defaultMessage": "Search-mk",
+    "description": "Prompt for search button"
+  },
+  "Tasks.Images.TabNavigationButtons.ImgOnMedia": {
+    "defaultMessage": "On Network-mk",
+    "description": "Alt text for on media image"
+  },
+  "Tasks.Images.TabNavigationButtons.ImgOnNetwork": {
+    "defaultMessage": "On Network-mk",
+    "description": "Alt text for on network image"
+  },
+  "Tasks.Images.TabNavigationButtons.ImgOnStealth": {
+    "defaultMessage": "On Stealth-mk",
+    "description": "Alt text for on stealth image"
+  },
+  "Tasks.Images.TabNavigationButtons.LoadFromStealth": {
+    "defaultMessage": "Load from this Stealth-mk",
+    "description": "Button prompt to fetch load images from this stealth station"
+  },
+  "Tasks.Images.TabNavigationButtons.Media": {
+    "defaultMessage": "Insert Media-mk",
+    "description": "Button prompt to load images from media storage device"
+  },
+  "Tasks.Images.TabNavigationButtons.Network": {
+    "defaultMessage": "Pull from Network-mk",
+    "description": "Button prompt to fetch images from network"
+  },
+  "Tasks.Images.ThisStealthTab.SearchBar.ImportDate": {
+    "defaultMessage": "Import date-mk",
+    "description": "Table column heading"
+  },
+  "Tasks.Images.ThisStealthTab.SearchBar.Mrn": {
+    "defaultMessage": "MRN-mk",
+    "description": "Table column heading (acronym)"
+  },
+  "Tasks.Images.ThisStealthTab.SearchBar.Name": {
+    "defaultMessage": "Name-mk",
+    "description": "Table column heading"
+  },
+  "Tasks.Images.ThisStealthTab.SearchBar.Placeholder": {
+    "defaultMessage": "NAME OR MRN-mk",
+    "description": "Search prompt for patient list"
+  },
+  "Tasks.Imges.DicomQuery.Series.Slices": {
+    "defaultMessage": "SLICES-mk",
+    "description": "Label for slices count"
+  },
+  "Tasks.Instruments.Heading": {
+    "defaultMessage": "Instruments-mk",
+    "description": "Heading for Instruments task"
+  },
+  "Tasks.Instruments.Title": {
+    "defaultMessage": "Instruments-mk",
+    "description": "Title of instruments task, as appears in right panel slideout"
+  },
+  "Tasks.ManualRegistration.H2": {
+    "defaultMessage": "Manual Registration-mk",
+    "description": "Heading for Manual Registration task"
+  },
+  "Tasks.ManualRegistration.Title": {
+    "defaultMessage": "Manual Registration-mk",
+    "description": "Title of manual registration task, as appears in right panel slideout"
+  },
+  "Tasks.MergeImages.H2": {
+    "defaultMessage": "Merge Images-mk",
+    "description": "Heading for Merge Images task"
+  },
+  "Tasks.PatientAdmin.H2": {
+    "defaultMessage": "Patient Admin-mk",
+    "description": "Heading for Patient Admin task"
+  },
+  "Tasks.Planning.SubTasks.Annotations.AnnotationCard.Delete": {
+    "defaultMessage": "DELETE-mk",
+    "description": "Delete button for annotation in annotations"
+  },
+  "Tasks.Planning.SubTasks.Annotations.AnnotationCard.Input.Name": {
+    "defaultMessage": "NAME-mk",
+    "description": "label for annotation name input"
+  },
+  "Tasks.Planning.SubTasks.Annotations.AnnotationDrawer.Btn.Configure": {
+    "defaultMessage": "Configure annotation-mk",
+    "description": "Button aria-label for gear / configure icon on annotation"
+  },
+  "Tasks.Planning.SubTasks.Annotations.AnnotationDrawer.Btn.LockUnlock": {
+    "defaultMessage": "{action} annotation-mk",
+    "description": "Button aria-label for lock icon on annotation"
+  },
+  "Tasks.Planning.SubTasks.Annotations.AnnotationDrawer.Btn.ShowHide": {
+    "defaultMessage": "{action} annotation-mk",
+    "description": "Button aria-label for visibility icon on annotation"
+  },
+  "Tasks.Planning.SubTasks.Annotations.AnnotationsList.Confirm": {
+    "defaultMessage": "CONFIRM-mk",
+    "description": "Prompt to confirm delete all annotations"
+  },
+  "Tasks.Planning.SubTasks.Annotations.AnnotationsList.Delete": {
+    "defaultMessage": "CANCEL-mk",
+    "description": "Prompt to cancel delete all annotations"
+  },
+  "Tasks.Planning.SubTasks.Annotations.AnnotationsList.DeleteAll": {
+    "defaultMessage": "DELETE ALL-mk",
+    "description": "Prompt delete all annotations"
+  },
+  "Tasks.Planning.SubTasks.Annotations.AnnotationsList.HideAll": {
+    "defaultMessage": "HIDE ALL-mk",
+    "description": "Prompt hide all annotations"
+  },
+  "Tasks.Planning.SubTasks.Annotations.AnnotationsList.NewAnnotation.Name": {
+    "defaultMessage": "-mk",
+    "description": "Name for new annotation, includes annotation id"
+  },
+  "Tasks.Planning.SubTasks.Annotations.AnnotationsList.Plan": {
+    "defaultMessage": "PLAN-mk",
+    "description": "Prompt to show plan controls"
+  },
+  "Tasks.Planning.SubTasks.Annotations.AnnotationsList.Undo": {
+    "defaultMessage": "UNDO-mk",
+    "description": "Prompt undo action"
+  },
+  "Tasks.Planning.SubTasks.Plans.PlanDrawer.Btn.Configure": {
+    "defaultMessage": "Configure plan-mk",
+    "description": "Button aria-label for gear / configure icon on plan"
+  },
+  "Tasks.Planning.SubTasks.Plans.PlanDrawer.Btn.LockUnlock": {
+    "defaultMessage": "{action} plan-mk",
+    "description": "Button aria-label for lock icon on plan"
+  },
+  "Tasks.Planning.SubTasks.Plans.PlanDrawer.Btn.ShowHide": {
+    "defaultMessage": "{action} plan-mk",
+    "description": "Button aria-label for visibility icon on plan"
+  },
+  "Tasks.Planning.SubTasks.Plans.PlanDrawerCards.PlanCard.Less": {
+    "defaultMessage": "LESS-mk",
+    "description": "Expand/collapse prompt to show less"
+  },
+  "Tasks.Planning.SubTasks.Plans.PlanDrawerCards.PlanCard.More": {
+    "defaultMessage": "MORE-mk",
+    "description": "Expand/collapse prompt to show more"
+  },
+  "Tasks.Planning.SubTasks.Plans.PlanDrawerCards.PlanCard.SetEntry": {
+    "defaultMessage": "SET ENTRY-mk",
+    "description": "Prompt to set entry in plan drawer card"
+  },
+  "Tasks.Planning.SubTasks.Plans.PlanDrawerCards.PlanCard.SetTarget": {
+    "defaultMessage": "SET TARGET-mk",
+    "description": "Prompt to set entry in plan drawer card"
+  },
+  "Tasks.Planning.SubTasks.Plans.PlanDrawerCards.PlanCard.ShowMoreLess": {
+    "defaultMessage": "Show {moreless}-mk",
+    "description": "Expand/collapse prompt to show more"
+  },
+  "Tasks.Planning.SubTasks.Plans.PlanDrawerCards.PlanCardMore.Delete": {
+    "defaultMessage": "DELETE-mk",
+    "description": "Delete button for plan in plan drawer"
+  },
+  "Tasks.Planning.SubTasks.Plans.PlanDrawerCards.PlanCardMore.Input.Name": {
+    "defaultMessage": "Name-mk",
+    "description": "label for plan name input"
+  },
+  "Tasks.Planning.SubTasks.Plans.PlanDrawerCards.PlanCardMore.Input.SafetyMargin": {
+    "defaultMessage": "Safety Margin-mk",
+    "description": "Label for plan safety margin boolean switch"
+  },
+  "Tasks.Planning.SubTasks.Plans.PlanDrawerCards.PlanCardMore.Input.VirtualCraniotomy": {
+    "defaultMessage": "Virtual Craniotomy-mk",
+    "description": "Label for plan virtual craniotomy boolean switch"
+  },
+  "Tasks.Planning.SubTasks.Plans.PlansList.Confirm": {
+    "defaultMessage": "CONFIRM-mk",
+    "description": "Prompt to confirm delete all plans"
+  },
+  "Tasks.Planning.SubTasks.Plans.PlansList.Delete": {
+    "defaultMessage": "CANCEL-mk",
+    "description": "Prompt to cancel delete all plans"
+  },
+  "Tasks.Planning.SubTasks.Plans.PlansList.DeleteAll": {
+    "defaultMessage": "DELETE ALL-mk",
+    "description": "Prompt delete all plans"
+  },
+  "Tasks.Planning.SubTasks.Plans.PlansList.HideAll": {
+    "defaultMessage": "HIDE ALL-mk",
+    "description": "Prompt hide all plans"
+  },
+  "Tasks.Planning.SubTasks.Plans.PlansList.NewPlan.Name": {
+    "defaultMessage": "Plan {id}-mk",
+    "description": "Name for new plan, includes plan id"
+  },
+  "Tasks.Planning.SubTasks.Plans.PlansList.Undo": {
+    "defaultMessage": "UNDO-mk",
+    "description": "Prompt undo action"
+  },
+  "Tasks.Planning.SubTasks.TwoDViews.Button.Add": {
+    "defaultMessage": "Add-mk",
+    "description": "Label for icon button used to add exams"
+  },
+  "Tasks.Planning.SubTasks.TwoDViews.Button.Build": {
+    "defaultMessage": "TAP HERE TO BUILD A MODEL-mk",
+    "description": "Prompt to select button to build 2D model"
+  },
+  "Tasks.Planning.SubTasks.TwoDViews.Exams": {
+    "defaultMessage": "Exams-mk",
+    "description": "Heading for list of exams"
+  },
+  "Tasks.Planning.SubTasks.TwoDViews.Models": {
+    "defaultMessage": "Models-mk",
+    "description": "Heading for list of Models"
+  },
+  "Tasks.Planning.Subtasks.TwoDViews.Switch.Label.Blend": {
+    "defaultMessage": "2D Auto Blend-mk",
+    "description": "Labels switch component for enabling / disabling \"blend mode\""
+  },
+  "Tasks.Planning.Subtasks.TwoDViews.Switch.Label.Compare": {
+    "defaultMessage": "Compare Mode-mk",
+    "description": "Labels switch component for enabling / disabling \"compare mode\""
+  },
+  "Tasks.SelectProcedure.AnatomyCard.SelectSurgeon": {
+    "defaultMessage": "Select Surgeon-mk",
+    "description": "Prompt to select surgeon"
+  },
+  "Tasks.SelectProcedure.AnatomyCard.Surgeon": {
+    "defaultMessage": "SURGEON-mk",
+    "description": "Header for surgeon name in procedure list"
+  },
+  "Tasks.SelectProcedure.AnatomyCardList.AnatomyCard.ProcedureList.Button.Back": {
+    "defaultMessage": "BACK-mk",
+    "description": "Label for Back button"
+  },
+  "Tasks.SelectProcedure.AnatomyCardList.ForAssistance": {
+    "defaultMessage": "For assistance, contact Medtronic technical support at:-mk",
+    "description": "Stages US and international licensing assitance numbers displayed below."
+  },
+  "Tasks.SelectProcedure.AnatomyCardList.IntlAssistance": {
+    "defaultMessage": "INTL +1-720-890-3160-mk",
+    "description": "International Licensing assistance number"
+  },
+  "Tasks.SelectProcedure.AnatomyCardList.NoLicenses": {
+    "defaultMessage": "No application licenses are available on this system.-mk",
+    "description": "Notification displayed when no procedures can be selected because no licenses are available."
+  },
+  "Tasks.SelectProcedure.AnatomyCardList.USAssistance": {
+    "defaultMessage": "US +1-800-595-9709-mk",
+    "description": "US Licensing assistance number"
+  },
+  "Tasks.SelectProcedure.ProcedureList.SelectProcedure": {
+    "defaultMessage": "Select Procedure-mk",
+    "description": "Heading for procedure list, prompts to select procedure"
+  },
+  "Tasks.SelectProcedure.SidePanel.Heading.RecentPatients": {
+    "defaultMessage": "Recent Patients ({count})-mk",
+    "description": "Slideout drawer heading with number of recent patients"
+  },
+  "Tasks.SelectProcedure.SidePanel.NotSelected": {
+    "defaultMessage": "Not Selected-mk",
+    "description": "Placeholder string used when patient surgeon or procedure is not yet selected"
+  },
+  "Tasks.SelectProcedure.SidePanel.PatientProcedure": {
+    "defaultMessage": "PROCEDURE: {procedure}-mk",
+    "description": "Patient procedure in recent patients slideout drawer"
+  },
+  "Tasks.SelectProcedure.SidePanel.PatientSurgeon": {
+    "defaultMessage": "SURGEON: {surgeon}-mk",
+    "description": "Patient surgeon in recent patients slideout drawer"
+  },
+  "Tasks.SelectProcedure.SidePanel.ResumePatient": {
+    "defaultMessage": "RESUME-mk",
+    "description": "Prompt to resume with selected patient"
+  },
+  "Tasks.SelectProcedure.SidePanel.StartPatient": {
+    "defaultMessage": "START-mk",
+    "description": "Prompt to start with selected patient"
+  },
+  "Tasks.SurgeonAdmin.Heading": {
+    "defaultMessage": "Surgeon Admin-mk",
+    "description": "Header for Surgeon Administration tasks view"
+  },
+  "Tasks.VerifyRegistration.Heading": {
+    "defaultMessage": "Veryify Registration-mk",
+    "description": "Heading for Verify Registration task view"
+  },
+  "Tasks.VerifyRegistration.Title": {
+    "defaultMessage": "Verify Registration-mk",
+    "description": "Title of verify registration task, as appears in right panel slideout"
+  },
+  "VeritcalSlider.popup": {
+    "defaultMessage": "SLICE {value}-mk",
+    "description": "Vertical slider value popup"
+  },
+  "aboutthissystem.copyright": {
+    "defaultMessage": "Copyright {year} Medtronic, Inc. All Rights Reserved.-mk",
+    "description": "The Medtronic copyright boilerplate. {year} will be replaced with the copyright date"
+  },
+  "aboutthissystem.installedlicenses": {
+    "defaultMessage": "Installed Licenses-mk",
+    "description": "The software licenses installed on this system"
+  },
+  "aboutthissystem.licenseinformation": {
+    "defaultMessage": "SOFTWARE LICENSE INFORMATION-mk",
+    "description": "Link to a description of software licenses"
+  },
+  "aboutthissystem.systemversion": {
+    "defaultMessage": "Stealth™ Application {version}-mk",
+    "description": "Application version information {version} will be replaced with application version number."
+  },
+  "framework.taskmenu.procedureExited": {
+    "defaultMessage": "Exit Procedure-mk",
+    "description": "Exit the current working procedure"
+  },
+  "loginscreen": {
+    "defaultMessage": "Further, Together-mk",
+    "description": "Medtronic tagline"
+  },
+  "splashscreen.further.together": {
+    "defaultMessage": "Further, Together-mk",
+    "description": "Medtronic tagline"
+  },
+  "workflow.categories.optional": {
+    "defaultMessage": "Optional-mk",
+    "description": "Non-required"
+  },
+  "workflow.categories.other": {
+    "defaultMessage": "Other-mk",
+    "description": "Not categorized"
+  },
+  "workflow.categories.required": {
+    "defaultMessage": "Required-mk",
+    "description": "Non-optional"
+  },
+  "workflow.procedures.laserablation": {
+    "defaultMessage": "Laser Ablation-mk",
+    "description": "The Multi-Fiber Laser Ablation procedure"
+  }
+}

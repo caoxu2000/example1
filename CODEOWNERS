@@ -1,0 +1,7 @@
+# The sections below represent eligible approvers for the given file path
+
+[Otto]
+* @tricem2 @tzange2 @nystra2 @ulas2 @bartej7 @tibalc1 @lil88 @bechej2 @chamba6 @palmea4
+
+[Quality]
+cypress/e2e/system/ @martim258 @browna55 @kharep2 @khawar2
