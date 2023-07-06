@@ -1,7 +1,7 @@
 {
-  "name": "systemtest",
+  "name": "example1",
   "version": "1.0.0",
-  "description": "Juno - Cypress.io test framework",
+  "description": "Cypress.io test framework",
   "scripts": {
     "lint": "npx eslint ./**/*.ts ./**/*.js",
     "lint:fix": "npm run lint -- --fix",
@@ -18,7 +18,7 @@
     "appSetup:make": "./util/config/configureApp.sh",
     "prepare": "husky install && chmod ug+x .husky/*"
   },
-  "author": "Team Otto",
+  "author": "Xu Cao",
   "license": "ISC",
   "dependencies": {
     "@juno/camerasimmethods": "1.0.0",
